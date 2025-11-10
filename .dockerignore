@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log
+
+# Data (이미지에 포함하지 않음, 볼륨으로 마운트)
+data/
+
+# Config (볼륨으로 마운트)
+.env
+.env.local
+
+# Test files
+test_*.py
+__pycache__
+
+# Documentation
+README.md
+*.md
+docs/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore

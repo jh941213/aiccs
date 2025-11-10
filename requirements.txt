@@ -1,0 +1,54 @@
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Task Queue
+celery==5.3.6
+redis==5.0.1
+
+# STT - Whisper
+faster-whisper==0.10.0
+torch==2.1.2
+torchaudio==2.1.2
+
+# Audio Processing
+pydub==0.25.1
+soundfile==0.12.1
+librosa==0.10.1
+
+# Speaker Diarization
+pyannote.audio==3.1.1
+huggingface-hub==0.20.3
+
+# LLM - Ollama Client
+httpx==0.26.0
+aiofiles==23.2.1
+
+# File Monitoring
+watchdog==4.0.0
+
+# Database
+sqlalchemy==2.0.25
+aiosqlite==0.19.0
+
+# GPU Monitoring
+pynvml==11.5.0
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Logging
+loguru==0.7.2
+
+# Testing
+pytest==8.0.0
+pytest-asyncio==0.23.3
+
+# GUI (Phase 3)
+# tkinter는 Python 기본 포함
+
+# Packaging (Phase 4)
+pyinstaller==6.3.0
